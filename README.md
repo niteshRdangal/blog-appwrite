@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blog App with Appwrite
+
+Welcome to the Blog App! This is a web application built with Next.js and Appwrite that allows users to view blog posts. It provides a user-friendly interface for browsing and reading articles.
+
+## Features
+
+- View blog posts with title, content, and images.
+- Responsive design for a seamless experience on different devices.
+
+## Technologies Used
+
+- Next.js: A React framework for building server-side rendered and static web applications.
+- Tailwind CSS: A utility-first CSS framework for rapid UI development.
+- Appwrite: An open-source backend as a service (BaaS) platform that simplifies common server-side tasks.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the Blog App, follow these steps:
 
-```bash
+1. Clone the repository:
+
+git clone https://github.com/niteshRdangal/blog-appwrite.git
+
+markdown
+Copy code
+
+2. Install the dependencies:
+
+cd blog-appwrite
+npm install
+
+markdown
+Copy code
+
+3. Configure Appwrite:
+
+   - Create an account on the [Appwrite platform](https://appwrite.io/) if you haven't already.
+   - Create a new project in the Appwrite dashboard.
+   - Update the Appwrite endpoint and project ID in the `pages/api/_lib/appwrite.js` file.
+
+4. Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Open your browser and visit `http://localhost:3000` to see the Blog App in action.
