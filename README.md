@@ -4,7 +4,7 @@ Welcome to the Blog App! This is a web application built with Next.js and Appwri
 
 ## Features
 
-- View blog posts with title, content, and images.
+- View blog posts with titles, content, and images.
 - Responsive design for a seamless experience on different devices.
 
 ## Technologies Used
@@ -21,16 +21,12 @@ To get started with the Blog App, follow these steps:
 
 git clone https://github.com/niteshRdangal/blog-appwrite.git
 
-markdown
-Copy code
 
 2. Install the dependencies:
 
 cd blog-appwrite
 npm install
 
-markdown
-Copy code
 
 3. Configure Appwrite:
 
